@@ -17,4 +17,7 @@ Ejecucion en la terminal:
 
 json-server --watch --no-cors --port 8080  db.json
 
+Usuario para el Login:
 
+user: admin@example.com
+password: 123456
