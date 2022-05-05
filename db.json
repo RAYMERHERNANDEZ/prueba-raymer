@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "dni": "123456756",
+      "name": "Juan",
+      "email": "juan@user.com"
+    },
+    {
+      "dni": "109874",
+      "name": "Elver",
+      "email": "elver@example.com",
+      "id": 3
+    },
+    {
+      "dni": "123456",
+      "name": "Ivan",
+      "email": "ivan@gmail.com",
+      "id": 4
+    },
+    {
+      "dni": "10987",
+      "name": "Camilo",
+      "email": "camilo@gmail.com",
+      "id": 5
+    },
+    {
+      "dni": "123456",
+      "name": "Juliana",
+      "email": "jbogota@gmail.com",
+      "id": 6
+    }
+  ],
+  "applications": [
+    {
+      "user": "Juan",
+      "amount": 20000,
+      "state": "Approved",
+      "id": 1
+    },
+    {
+      "user": "Juliana",
+      "amount": 20000,
+      "state": "Approved",
+      "id": 2
+    }
+  ]
+}

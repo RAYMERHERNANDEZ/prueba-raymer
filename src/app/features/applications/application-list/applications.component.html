@@ -1,0 +1,43 @@
+<div class="container" fxLayout="row" fxLayoutAlign="center none">
+  <div fxFlex="95%">
+    <mat-card>
+      <mat-card-content>
+        <h1 mat-dialog-title>Applications Credit</h1>
+        <div mat-dialog-content>
+            <div class="container-application">
+                <form
+                class="example-form"
+                [formGroup]="applicationForm"
+              >
+                <mat-form-field appearance="fill">
+                  <mat-label>User</mat-label>
+                  <mat-select  matInput formControlName="user" value=""> 
+                    <mat-option *ngFor="let user of users" [value]="user.name">
+                      {{user.name}}
+                    </mat-option>
+                  </mat-select>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                  <mat-label>Amount</mat-label>
+                  <input type="number" matInput formControlName="amount" value="" />
+                </mat-form-field>
+                <button class="clear"  (click)="clear()" mat-flat-button color="warn">
+                  Clear
+                </button>
+                <button
+                  class="save"
+                  (click)="onSubmit()"
+                  mat-button
+                  type="submit"
+                  mat-flat-button
+                  color="primary"
+                >
+                  Save
+                </button>
+              </form>
+            </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

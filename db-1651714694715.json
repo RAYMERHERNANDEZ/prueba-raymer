@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "dni": "123456756",
+      "name": "example 1",
+      "email": "example@user.com"
+    },
+    {
+      "dni": "109874",
+      "name": "Elver",
+      "email": "elver@example.com",
+      "id": 3
+    },
+    {
+      "dni": "123456",
+      "name": "ivan",
+      "email": "ivan@gmail.com",
+      "id": 4
+    },
+    {
+      "dni": "10987",
+      "name": "camilo",
+      "email": "camilo@gmail.com",
+      "id": 5
+    },
+    {
+      "dni": "123456",
+      "name": "juliana bogota",
+      "email": "jbogota@gmail.com",
+      "id": 6
+    },
+    {
+      "dni": "109874",
+      "name": "Elver",
+      "email": "elver@example.com",
+      "id": 7
+    }
+  ],
+  "applications": []
+}
